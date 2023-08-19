@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+th,td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.edit-del *{
+    cursor: pointer;
+    margin: 0rem 0.2rem;
+}
+
+.fa-pen-to-square:hover{
+    color: blue;
+}
+.fa-trash-can:hover{
+    color: red;
+}
